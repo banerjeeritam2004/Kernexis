@@ -79,3 +79,31 @@
 | TC33 | Run `make clean` | Build files are removed |
 | TC34 | Run `make` | Project compiles successfully |
 | TC35 | Run `make run` | Application starts successfully |
+## 10. Invalid Input Tests
+
+| Test ID | Test | Expected Result |
+|---|---|---|
+| TC36 | Enter invalid menu choice | Invalid choice message is displayed |
+| TC37 | Enter choice greater than 8 | Application handles invalid input safely |
+| TC38 | Enter zero as choice | Invalid choice message is displayed |
+| TC39 | Enter negative choice | Invalid choice message is displayed |
+
+## 11. Test Summary
+
+| Category | Test Cases |
+|---|---:|
+| System Information | 6 |
+| CPU Monitoring | 3 |
+| Memory Monitoring | 4 |
+| Process Monitoring | 4 |
+| Storage Monitoring | 4 |
+| Diagnostics | 3 |
+| Logging | 3 |
+| Live Monitoring | 5 |
+| Build Testing | 3 |
+| Invalid Input | 4 |
+| **Total** | **39** |
+
+## 12. Testing Conclusion
+
+The Kernexis application was tested module-by-module using functional, build, logging, live monitoring, and invalid input test cases. The tests verify that the major monitoring modules execute correctly, display system resource information, handle invalid menu choices, and build successfully using the project Makefile.
