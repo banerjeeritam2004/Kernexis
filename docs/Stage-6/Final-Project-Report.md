@@ -195,6 +195,7 @@ The module identifies numeric directories as process IDs and reads information f
 
 ```text
 /proc/<PID>/status
+```
 ### 7.5 Storage Monitor
 
 The Storage Monitor provides information about the storage capacity and utilization of the Linux filesystem.
