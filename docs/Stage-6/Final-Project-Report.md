@@ -87,6 +87,7 @@ Linux Kernel
  |
  v
 System Resources
+```
 ## 6. Technologies and Tools Used
 
 ### Programming Language
