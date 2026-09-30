@@ -340,18 +340,21 @@ The following command removes previously generated object files and the executab
 
 ```bash
 make clean
+```
 ### 10.2 Compile the Project
 
 The project can be compiled using:
 
 ```bash
 make
+```
 ### 10.3 Run the Application
 
 The application can be executed using:
 
 ```bash
 make run
+```
 ## 11. Testing and Validation
 
 Testing was performed to verify the functionality, correctness, and reliability of the Kernexis application.
@@ -366,6 +369,9 @@ The following commands were tested:
 make clean
 make
 make run
+```
+
+
 ### 11.2 Functional Testing
 
 Each major menu option was executed individually and its output was verified.
@@ -389,6 +395,8 @@ Invalid numeric inputs were tested using values such as:
 9
 0
 -1
+```
+
 ### 11.4 Logging Testing
 
 The application log was checked to verify that important execution events were recorded in:
@@ -407,6 +415,7 @@ The test confirmed that the monitoring thread was able to collect and display up
 The implemented modules and major application functions were tested successfully during the validation phase.
 
 The testing process confirmed that the Kernexis application can compile, execute, collect system information, monitor system resources, handle invalid numeric inputs, generate log entries, and perform live monitoring as expected.
+```
 ## 12. Error Handling
 
 Basic error handling has been incorporated throughout the Kernexis application to improve reliability and prevent unexpected termination during normal operation.
@@ -424,6 +433,7 @@ When required information cannot be retrieved, the application uses safe handlin
 Input validation is also implemented for the command-line menu so that invalid numeric choices do not terminate the application.
 
 The error handling approach helps make Kernexis more stable and user-friendly.
+```
 ## 13. Logging and Monitoring Flow
 
 The general monitoring flow of Kernexis can be represented as follows:
@@ -448,6 +458,7 @@ Display Result
  |
  v
 Record Important Event in Log
+```
 ## 14. Hardware and Software Interaction
 
 Although Kernexis is a software-only project, it demonstrates how software interacts with hardware resources through the Linux operating system.
@@ -468,6 +479,7 @@ Hardware Resources
        |
        v
 CPU / Memory / Storage
+```
 ## 15. Version Control and GitHub
 
 Git was used throughout the development of Kernexis to maintain the project's version history and track important changes.
@@ -483,6 +495,7 @@ Stage 3 -> Implementation
 Stage 4 -> Testing and Validation
 Stage 5 -> Technical Documentation
 Stage 6 -> Final Project Report
+```
 ## 16. Security Considerations
 
 Kernexis is designed as a read-oriented Linux system monitoring application. The application primarily reads system information and does not intentionally modify critical operating system resources.
@@ -499,7 +512,7 @@ The following security considerations were followed during development:
 The application does not require administrative privileges for its normal monitoring operations.
 
 Future versions can introduce additional security controls, permission management, and stronger input validation mechanisms.
-
+```
 ## 17. Limitations
 
 The current version of Kernexis has some limitations:
@@ -514,7 +527,7 @@ The current version of Kernexis has some limitations:
 8. It does not implement a full Linux kernel device driver.
 
 These limitations can be addressed through future enhancements and additional development.
-
+```
 ## 18. Future Enhancements
 
 Kernexis can be extended with additional features to improve its monitoring and diagnostic capabilities.
@@ -536,6 +549,7 @@ Possible future enhancements include:
 13. Adding more advanced Linux system interfaces.
 
 These enhancements can make Kernexis more flexible and suitable for advanced system monitoring and diagnostic requirements.
+```
 ## 19. Expected Outcome
 
 The expected outcome of Kernexis is a functional Linux-based command-line framework capable of providing important system information and basic resource diagnostics through a unified application.
