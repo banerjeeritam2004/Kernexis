@@ -224,7 +224,7 @@ The diagnostic status is categorized as follows:
 Utilization < 75%       -> Normal
 75% - 89%               -> Notice
 90% or above            -> Warning
-
+```
 ### 7.7 Logger Module
 
 The Logger Module is responsible for recording important application events and monitoring activities.
@@ -243,6 +243,7 @@ The log file is maintained at:
 
 ```text
 logs/kernexis.log
+```
 ### 7.8 Live Monitoring Module
 
 The Live Monitoring Module provides periodic monitoring of important system resources.
@@ -258,6 +259,7 @@ The module periodically collects and displays:
 The current implementation performs multiple monitoring cycles with a fixed time interval between each cycle.
 
 The Live Monitoring Module demonstrates the practical use of multithreading and periodic resource monitoring in a Linux-based application.
+```
 ## 8. Command-Line Interface
 
 Kernexis provides an interactive command-line interface through which the user can access different system monitoring and diagnostic functions.
@@ -278,7 +280,9 @@ The main menu provides the following options:
 7. Live Monitoring
 8. Exit
 
+
 Enter your choice:
+```
 ## 9. Project Structure
 
 The Kernexis project follows a modular directory structure. The source code, header files, testing files, logs, and documentation are maintained separately.
@@ -324,10 +328,10 @@ Kernexis/
 ├── Makefile
 ├── README.md
 └── .gitignore
+```
 ## 10. Build and Execution
 
 Kernexis uses a Makefile to simplify the compilation and execution process.
-
 ### 10.1 Clean Previous Build
 
 The following command removes previously generated object files and the executable:
