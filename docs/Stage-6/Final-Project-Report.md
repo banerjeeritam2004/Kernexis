@@ -260,7 +260,7 @@ The current implementation performs multiple monitoring cycles with a fixed time
 
 The Live Monitoring Module demonstrates the practical use of multithreading and periodic resource monitoring in a Linux-based application.
 
-```
+
 
 ## 8. Command-Line Interface
 
@@ -433,7 +433,7 @@ When required information cannot be retrieved, the application uses safe handlin
 Input validation is also implemented for the command-line menu so that invalid numeric choices do not terminate the application.
 
 The error handling approach helps make Kernexis more stable and user-friendly.
-```
+
 ## 13. Logging and Monitoring Flow
 
 The general monitoring flow of Kernexis can be represented as follows:
@@ -512,7 +512,7 @@ The following security considerations were followed during development:
 The application does not require administrative privileges for its normal monitoring operations.
 
 Future versions can introduce additional security controls, permission management, and stronger input validation mechanisms.
-```
+
 ## 17. Limitations
 
 The current version of Kernexis has some limitations:
