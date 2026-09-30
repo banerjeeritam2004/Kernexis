@@ -549,7 +549,7 @@ Possible future enhancements include:
 13. Adding more advanced Linux system interfaces.
 
 These enhancements can make Kernexis more flexible and suitable for advanced system monitoring and diagnostic requirements.
-```
+
 ## 19. Expected Outcome
 
 The expected outcome of Kernexis is a functional Linux-based command-line framework capable of providing important system information and basic resource diagnostics through a unified application.
