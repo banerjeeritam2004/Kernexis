@@ -259,7 +259,9 @@ The module periodically collects and displays:
 The current implementation performs multiple monitoring cycles with a fixed time interval between each cycle.
 
 The Live Monitoring Module demonstrates the practical use of multithreading and periodic resource monitoring in a Linux-based application.
+
 ```
+
 ## 8. Command-Line Interface
 
 Kernexis provides an interactive command-line interface through which the user can access different system monitoring and diagnostic functions.
