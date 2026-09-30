@@ -527,7 +527,7 @@ The current version of Kernexis has some limitations:
 8. It does not implement a full Linux kernel device driver.
 
 These limitations can be addressed through future enhancements and additional development.
-```
+
 ## 18. Future Enhancements
 
 Kernexis can be extended with additional features to improve its monitoring and diagnostic capabilities.
